@@ -377,7 +377,7 @@ img.with-border{
 
 #nav-bar.bottom-bar.stick-it{
 	position:fixed;
-	height:145px;
+	height:100px;
 	width:100%;
 	background-color:#FFF;
 	z-index:1500;
@@ -417,10 +417,11 @@ img.with-border{
 #nav-menu{
 	list-style-type:none;
 	margin:0;
-	padding:45px 0 0 0;
+	padding: 50px 0 0 0;
 	font-family: 'Oswald','Noto Sans KR', sans-serif;
 	font-size:13px;
 	z-index:1000;
+	height: 100%;
 }
 
 /* 02.2.1 Nav Center 							 */
@@ -428,7 +429,7 @@ img.with-border{
 #nav-bar.nav-center .logo-wrapper{
 	position:absolute;
 	margin:auto;
-	top:0;
+	top:-50px;
 	bottom:0;
 	left:0;
 	right:0;
@@ -480,7 +481,7 @@ img.with-border{
   	font-style: normal;
   	font-weight: normal;
   	font-size:10px;
-	content: '\e9bd';
+	content: '\1F3B6';
 	color:#f0394d;
 	text-align:center;
 }
@@ -876,8 +877,8 @@ img.with-border{
 /* 05.1	CSS Logo								 */
 /* ----------------------------------------------*/
 .css-logo{
-	width:100%;
-	height:100%;
+	width:65%;
+	height:65%;
 	border-radius:0%;
 	background-color:#60a1f0;
 	color:#FFF;
@@ -890,12 +891,12 @@ img.with-border{
 }
 
 .css-logo-text{
-	padding-top:19px;
-	font-size:15px;
+	padding-top:11px;
+	font-size:12px;
 }
 
 .css-logo-text > i {
-	font-size:10px;
+	font-size:12px;
 }
 
 /* ----------------------------------------------*/
