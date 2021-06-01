@@ -496,6 +496,7 @@ img.with-border{
 	padding:18px;
 	color:#666;
 	text-decoration:none;
+	font-weigh: 700;
 }
 
 #nav-menu > li a:hover{
@@ -884,6 +885,7 @@ img.with-border{
 	color:#FFF;
 	text-align:center;
 	font-family: 'Arvo','Noto Sans KR', serif;
+	opacity: 0.5
 }
 
 .css-logo.rounded{
